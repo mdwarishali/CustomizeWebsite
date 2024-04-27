@@ -1,0 +1,681 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Cutomize Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.d4tcdn.com/staticdt/js/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+	label.error {display:none !important}
+	.error_bdr {border:1px solid red !important}
+	</style>
+</head>
+<body>
+
+    <!-- header -->
+    <div class="prev-section">
+        <div class="hformat-1">
+            <header class="header">
+                <div class="container">
+                    <div class="header-row d-flex align-items-center justify-content-between">
+                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                        <div class="center">
+                            <div class="searchbox">
+                                <div class="item"><input type="text" placeholder="Search Products...."></div>
+                                <div class="item"><button class="btn btn-dark"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+                            </div>
+                        </div>
+                        <div class="right text-end">
+                            <ul class="tgl">
+                                <li><a href="#" class="modal-btn" data-modal="currencyConverter">Currency Converter</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                            <a href="#" class="btn btn-lg btn-secondary modal-btn" data-modal="SendInquiryModal"><i class="fa-regular fa-envelope me-1"></i> Send Inquiry</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="full-nav">
+        <div class="container">
+            <div class="menu-wrap">
+                <div class="menu-open"><span class="open"></span></div>
+                <div class="ozmenu dark">
+                    <div class="menu-close"><span class="close"></span></div>
+                    <ul class="ozmenu-nav m-0">
+                        <li class="item"><a href="index.html">Home</a></li>
+                        <li class="item"><a href="about.html">About Us</a></li>
+                        <li class="item"><a href="motc.html">MOTC</a></li>
+                        <li class="item"><a href="ebrochure.html">e-Brochure</a></li>
+                        <li class="item dropdownitem">
+                            <a href="#" class="nav-dropdown">Our Products</a>
+                            <div class="dropdown">
+                            <ul>
+                                <li class="item dropdownitem">
+                                    <a class="nav-dropdown" href="rib-fabrics.html">Rib Fabrics</a>
+                                    <div class="dropdown">
+                                        <ul>
+                                            <li><a class="item" href="rib-knit-trim-fabrics.html">Rib Knit Trim Fabrics</a></li>
+                                            <li><a class="item" href="rib-knit-plain-trim-fabric.html">Rib Knit plain trim Fabric</a></li>
+                                            <li><a class="item" href="Rib-Fabrics.html">View All</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="item dropdownitem">
+                                    <a class="nav-dropdown" href="rib-knit-trim-collar-and-cuffs.html">Rib Knit Trim Collar and Cuffs</a>
+                                    <div class="dropdown">
+                                        <ul>
+                                            <li><a class="item" href="multi-colour-collar-and-cuffs.html">Multi Colour Collar and Cuffs</a></li>
+                                            <li><a class="item" href="Rib-Knit-Trim-Collar-and-Cuffs.html">View All</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="item dropdownitem">
+                                    <a class="nav-dropdown" href="rib-knit-trim-fabric.html">Rib Knit Trim Fabric</a>
+                                    <div class="dropdown">
+                                        <ul>
+                                            <li><a class="item" href="5times1-rib-knit-trim-fabric.html">5&times;1 Rib Knit Trim Fabric</a></li>
+                                            <li><a class="item" href="4times2-rib-knit-trim-fabric.html">4&times;2 Rib Knit Trim Fabric</a></li>
+                                            <li><a class="item" href="1x1-rib-knit-trim-fabri.html">1x1 Rib Knit Trim Fabri</a></li>
+                                            <li><a class="item" href="3times1-rib-knit-trim-fabric.html">3&times;1 Rib Knit Trim Fabric</a></li>
+                                            <li><a class="item" href="2times1-rib-knit-trim-fabric.html">2&times;1 Rib Knit Trim Fabric</a></li>
+                                            <li><a class="item" href="multi-colour-rib-knit-trim-fabric.html">Multi Colour Rib Knit Trim Fabric</a></li>
+                                            <li><a class="item" href="2x2-rib-knit-trim-fabric.html">2x2 Rib Knit trim fabric</a></li>
+                                            <li><a class="item" href="plain-rib-knit-trim-fabric.html">Plain Rib Knit Trim Fabric</a></li>
+                                            <li><a class="item" href="Rib-Knit-Trim-Fabric.html">View All</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a class="item" href="rib-knit-trim-fabric.html">Rib Knit Trim Fabric</a></li>
+                                <li><a class="item" href="bomber-jacket-rib-knit-fabric.html">Bomber Jacket Rib Knit Fabric</a></li>
+                                <li><a class="item" href="sweatshirt-rib-knit-trim-neck-sleeve-and-waist.html">Sweatshirt Rib Knit Trim Neck Sleeve and Waist</a></li>
+                                <li><a class="item" href="two-color-striped-collar-plain-knit-rib-collar.html">Two-color Striped Collar Plain Knit Rib Collar</a></li>
+                                <li><a class="item" href="plain-elastic-rib-knit-fabric-cuffs-knit-collar-trim.html">Plain Elastic Rib Knit Fabric Cuffs Knit Collar Trim</a></li>
+                                <li><a class="item" href="knit-collar-and-cuffs-fabric.html">Knit Collar and Cuffs Fabric</a></li>
+                                <li><a class="item" href="kids-belt-rib-knit-fabric.html">Kids Belt Rib Knit Fabric</a></li>
+                                <li><a class="item" href="products.html">All Products</a> </li>
+                            </ul>
+                            </div>
+                        </li>
+                        <li class="item dropdownitem">
+                            <a href="#" class="nav-dropdown">More</a>
+                            <div class="dropdown">
+                            <ul>
+                                <li><a class="item" href="refund-and-cancellation-policy.html">Refund And Cancellation Policy</a></li>
+                                <li><a class="item" href="terms-of-use-services.html">Terms of Use Services</a></li>
+                                <li><a class="item" href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a class="item" href="payment-terms.html">Payment Terms</a></li>
+                                <li><a class="item" href="shipping-and-delivery-policy.html">Shipping and Delivery Policy</a></li>
+                            </ul>
+                            </div>
+                        </li>
+                        <li class="item"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="slider1 owl-carousel owl-theme arrow1">
+        <div class="item"><a href="rib-knit-trim-fabric.html"><img src="images/slider.jpg" alt=""></a></div>
+        <div class="item"><a href="two-color-striped-collar-plain-knit-rib-collar.html"><img src="images/slider2.jpg" alt="" loading="lazy"></a></div>
+    </div>
+
+    <div class="section" style="background:url('images/bg-pattern.jpg');">
+        <div class="container">
+            <div class="row welcome">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <div class="desc-upper">Inspired & Elegant</div>
+                        <h2 class="title text-secondary">Hot Products</h2>
+                    </div>
+
+                    <div class="prd-box3-row row">
+                        <div class="item col-md-4">
+                            <div class="prd-box3">
+                                <a href="rib-fabrics.html"><figure><img src="images/rib-fabrics.jpg" alt="" loading="lazy"></figure></a>
+                                <div class="content">
+                                    <a href="rib-fabrics.html" class="title">Rib Fabrics</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-4">
+                            <div class="prd-box3">
+                                <a href="rib-knit-trim-collar-and-cuffs.html"><figure><img src="images/rib-knit-trim-collar-and-cuffs.webp" alt="" loading="lazy"></figure></a>
+                                <div class="content">
+                                    <a href="rib-knit-trim-collar-and-cuffs.html" class="title">Rib Knit Trim Collar and Cuffs</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-4">
+                            <div class="prd-box3">
+                                <a href="rib-knit-trim-fabric.html"><figure><img src="images/rib-knit-trim-fabric.jpg" alt="" loading="lazy"></figure></a>
+                                <div class="content">
+                                    <a href="rib-knit-trim-fabric.html" class="title">Rib Knit Trim Fabric</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section bg-secondary text-center pt-1">
+        <div class="container">
+            <!-- <div class="title">Check Post Code For Delivery</div>
+            <div class="desc">Please enter your Post code to check the delivery status</div>
+
+            <div class="inptbox d-flex justify-content-center">
+                <div class=""><input type="text" placeholder="Enter Post Code"></div>
+                <div class=""><button type="button" class="btn btn-dark">Check</button></div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- Products -->
+    <div class="section">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2 class="title text-secondary">Our Product Range</h2>
+            </div>
+
+            <div class="prd-box2-row row">
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="multi-colour-rib-knit-trim-fabric.html"><figure><img src="images/multi-colour-rib-knit-trim-fabric.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="multi-colour-rib-knit-trim-fabric.html" class="title">Multi Colour Rib Knit Trim Fabric</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="3times1-rib-knit-trim-fabric.html"><figure><img src="images/3times1-rib-knit-trim-fabric.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="3times1-rib-knit-trim-fabric.html" class="title">3×1 Rib Knit Trim Fabric</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="bomber-jacket-rib-knit-fabric.html"><figure><img src="images/bomber-jacket-rib-knit-fabric.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="bomber-jacket-rib-knit-fabric.html" class="title">Bomber Jacket Rib Knit Fabric</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="sweatshirt-rib-knit-trim-neck-sleeve-and-waist.html"><figure><img src="images/sweatshirt-rib-knit-trim-neck-sleeve-and-waist.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="sweatshirt-rib-knit-trim-neck-sleeve-and-waist.html" class="title">Sweatshirt Rib Knit Trim Neck Sleeve and Waist</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="two-color-striped-collar-plain-knit-rib-collar.html"><figure><img src="images/two-color-striped-collar-plain-knit-rib-collar.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="two-color-striped-collar-plain-knit-rib-collar.html" class="title">Two-color Striped Collar Plain Knit Rib Collar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="solid-elastic-rib-knit-fabric-cuffs-knit-collar.html"><figure><img src="images/solid-elastic-rib-knit-fabric-cuffs-knit-collar.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="solid-elastic-rib-knit-fabric-cuffs-knit-collar.html" class="title">Solid Elastic Rib Knit Fabric Cuffs Knit Collar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="women-and-mens-rib-knit-trim-shuffle.html"><figure><img src="images/women-and-mens-rib-knit-trim-shuffle.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="women-and-mens-rib-knit-trim-shuffle.html" class="title">Women and Mens Rib Knit Trim Shuffle</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="basketball-jackets-rib-knit-trim-sets.html"><figure><img src="images/basketball-jackets-rib-knit-trim-sets.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="basketball-jackets-rib-knit-trim-sets.html" class="title">Basketball jackets rib knit trim sets</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="hoodies-hand-cuffs-and-bottom-rib-trim.html"><figure><img src="images/hoodies-hand-cuffs-and-bottom-rib-trim.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="hoodies-hand-cuffs-and-bottom-rib-trim.html" class="title">Hoodies Hand Cuffs and Bottom Rib Trim</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="knit-ribbed-cuff-for-jacket.html"><figure><img src="images/knit-ribbed-cuff-for-jacket.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="knit-ribbed-cuff-for-jacket.html" class="title">Knit Ribbed Cuff for Jacket</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="rib-knit-cuffs.html"><figure><img src="images/rib-knit-cuffs.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="rib-knit-cuffs.html" class="title">Rib Knit Cuffs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-4">
+                    <div class="prd-box2">
+                        <a href="sports-wear-trim-collar-and-cuffs.html"><figure><img src="images/sports-wear-trim-collar-and-cuffs.jpg" alt="" loading="lazy"></figure></a>
+                        <div class="content">
+                            <a href="sports-wear-trim-collar-and-cuffs.html" class="title">Sports Wear Trim Collar and Cuffs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"><a href="products.html" class="btn btn-lg btn-outline-secondary">Explore More <i class="fa-solid fa-arrow-right ms-2"></i></a></div>
+        </div>
+    </div>
+
+    <div class="section bg-gray">
+        <div class="container">
+            <div class="row welcome">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h2 class="title text-secondary">About Us</h2>
+                    </div>
+
+                    <div class="content text-center">
+                        <div><b>“Shree Kashi Exports”</b> the is the best name for high-quality fabrics <b>since 1998</b>. As a distinguished Manufacturer and Supplier, we specialize in offering a diverse range of fabrics catering to various needs. From <b>Rib Knit Trim Fabric to Sports Wear Trim Collar and Cuffs, Party Wear Jacket Rib Knit Trim to Sandwich Collar and Cuffs</b>, we take pride in providing products that meet the highest quality and durability standards. With a wide distribution network <b>spanning across India and internationally</b>, we have successfully reached diverse markets, serving clients with varying needs and preferences. Whether it's for fashion, sports, or special occasions, our fabrics are crafted to inspire creativity and elevate the final product. </div>
+
+                        <p>As a <b>Sole Proprietorship entity</b>, Shree Kashi Exports is a well-known company for manufacturing and supplying committed to delivering exceptional fabrics that exceed customer expectations, and that commitment remains at the core of everything we do. </p>
+                    </div>
+
+                    <div class="text-center pt-3">
+                        <a href="about.html" class="btn btn-lg btn-outline-secondary me-2">About Us</a>
+                        <a href="contact.html" class="btn btn-lg btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="foot-sub bg-secondary">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 left text-white">
+                    <div class="title">Inquiry Us!</div>
+                    <div class="desc">For More details, please visit our Product page or Contact Us.</div>
+                </div>
+                <div class="col-md-4 right text-end"><a href="contact.html" class="btn btn-lg btn-primary"><i class="fa-regular fa-envelope me-1"></i> Contact Us</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer dark section">
+        <div class="container">
+            <div class="row foot-row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <h2 class="title">General Links</h2>
+                    <ul class="foot-link p-0 m-0 list-inline">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="motc.html">MOTC</a></li>
+                        <li><a href="ebrochure.html">e-Brochure</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="sitemap.html">Sitemap</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <h2 class="title">Product Range</h2>
+                    <ul class="foot-link p-0 m-0 list-inline">
+                        <li><a href="rib-knit-trim-fabric.html" title="Rib Knit Trim Fabric">Rib Knit Trim Fabric</a></li>
+						<li><a href="bomber-jacket-rib-knit-fabric.html" title="Bomber Jacket Rib Knit Fabric">Bomber Jacket Rib Knit Fabric</a></li>
+						<li><a href="5times1-rib-knit-trim-fabric.html" title="5&times;1 Rib Knit Trim Fabric">5&times;1 Rib Knit Trim Fabric</a></li>
+						<li><a href="4times2-rib-knit-trim-fabric.html" title="4&times;2 Rib Knit Trim Fabric">4&times;2 Rib Knit Trim Fabric</a></li>
+						<li><a href="two-color-striped-collar-plain-knit-rib-collar.html" title="Two-color Striped Collar Plain Knit Rib Collar">Two-color Striped Collar Plain Knit Rib Collar</a></li>
+                        <li><a href="sweatshirt-rib-knit-trim-neck-sleeve-and-waist.html" title="Sweatshirt Rib Knit Trim Neck Sleeve and Waist">Sweatshirt Rib Knit Trim Neck Sleeve and Waist</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <h2 class="title">Contact Us</h2>
+                    <ul class="contact-list p-0 m-0 list-inline">
+                        <li class="address">C-2 Ratnadeep Colony Shastri Nagar L.B.S Marg Bhandup West Mumbai - 400078, Maharashtra, India</li>
+                        <li class="website"><a href="https://www.dial4trade.com/shree-kashi-exports/" target="_blank">View Catalog</a></li>
+                    </ul>
+
+                    <h2 class="title mt-3">Change Language</h2>
+                    <div class="d-flex">
+                        <div id="google_translate_element"></div>
+                    </div>
+
+                    <ul class="social-icons list-inline mb-0 mt-1">
+                        <li>Follow Us:</li>
+                        <li><a href="https://www.facebook.com/people/Shree-Kashi-Exports/61557074813259/" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/shree-kashi-exports/" class="linkedin" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                <h2 class="title">Inquiry</h2>
+                <form action="inquiry_submit.html" class="contact-form" method="post" id="popfrmsendenquiry1" name="popfrmsendenquiry1">
+                <div class="row foot-form">
+                <div class="col-12"><input type="text" class="input" id="pmem_name" name="pmem_name" placeholder="Your Name"></div>
+                <div class="col-12"><input type="text" class="input" id="pmem_email" name="pmem_email" placeholder="Email Address"></div>
+                <div class="col-12"><input class="input" type="tel" id="pmobile" name="pmobile" onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" maxlength="10" minlength="10" placeholder="Mobile Number"></div>
+                <div class="col-12"><input type="text" class="input" placeholder="Message" id="pprod_desc" name="pprod_desc"></div>
+                <div class="col-12">
+                <input type="hidden" id="memberID" name="memberID" value="2714277" />
+                <input type="hidden" id="captcha_code" name="captcha_code" value="" />
+                <input type="hidden" id="refURL" name="refURL" value="http://www.shreekashiexports.co.in/thank-you.html" />
+                <button type="submit" class="btn btn-lg btn-primary">Send Message</button></div>
+                </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12 left">Copyright &copy; 2024 <a href="index.html">Shree Kashi Exports</a>. All Rights Reserved.</div>
+                <div class="col-md-6 right text-end"><a href="https://www.dial4trade.com"><img src="images/memberof.png" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="scrollTop active"></div>
+
+
+    <?php
+		$count_my_page = ("hitcounter.txt");
+		$hits = file($count_my_page);
+		$hits[0] ++;
+		$fp = fopen($count_my_page , "w");
+		fputs($fp , "$hits[0]");
+		fclose($fp);
+		?>		<div class="hitcounter">
+		<div class="hit-number"><?php echo $hits[0]; ?></div>
+		<span class="text">Visitor Counter</span>
+		<style type="text/css">
+		.hitcounter {width: 40px; padding: 10px 0; background:rgba(255,255,255,0.7); border-radius: 0px 5px 5px 0px; position: fixed; top:50%; transform: translateY(calc(-50% - 0.5px)); left: 0px; box-shadow: 0px -0px 7px rgba(0,0,0,0.5); text-align: center; z-index: 99;}
+		.hit-number {word-break: break-all; font-weight: 600; font-family: arial; width:25px; text-align: center; margin: 0 auto; background: #175ca1; border-radius: 3px; color: #fff; padding: 7px}
+		.hitcounter .text {font-size: 10px; text-align: center; color: #000; line-height: 12px; display: inline-block; padding-top: 7px;}
+		</style>
+		</div>
+
+    <!-- Modal Send Inquiry -->
+<div class="modal" id="SendInquiryModal">
+	<div class="modal-dialog modal-dialog-centered" role="document" style="max-width:550px;">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title notranslate">Business Inquiry</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+				<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="pr-form-box">
+				<div class="row pr-form">
+					<div class="col-md-12 prstep-1 contact-box-wrap">
+						<form action="inquiry_submit.html" class="contact-form" method="post" id="popfrmsendenquiry" name="popfrmsendenquiry">
+						
+						<div class="row">
+						<div class="form-group col-md-12 mb-3">
+						<input type="text" name="subject1" id="subject1" class="form-control" placeholder="Enter Product name" onkeypress="$('#subject1').removeClass('error_bdr')">
+						</div>
+						<div class="form-group col-md-6 mb-3">
+						<input type="text" class="form-control" id="mem_name1" name="mem_name1" placeholder="Your Name" onkeypress="$('#mem_name1').removeClass('error_bdr')">
+						</div>
+						<div class="form-group form_left col-md-6">
+						<input type="email" class="form-control" id="mem_email1" name="mem_email1" placeholder="Your Email" onkeypress="$('#mem_email1').removeClass('error_bdr')">
+						</div>
+						<div class="form-group col-md-6 mb-3">
+						<input type="hidden" id="cntryCode1" name="countryCodePhone1" class="form-control" value=''>
+						<input type="tel" id="mobile2" class="form-control" onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" maxlength="10" placeholder="Mobile No." onchange="$('#csmobile2').removeClass('error_bdr')">
+						</div>
+						<div class="form-group col-md-6 mb-3">
+						<input type="text" class="form-control" id="city" name="city" placeholder="City" onkeypress="$('#city').removeClass('error_bdr')">
+						</div>
+
+						<div class="col-sm-12 text-center">
+						<input type="hidden" id="memberID" name="memberID" value="2714277" />
+						<input type="hidden" id="captcha_code" name="captcha_code" value="" />
+						<input type="hidden" id="refURL" name="refURL" value="http://www.shreekashiexports.co.in/thank-you.html" />
+						<button class="btn btn-primary" name="submit" id="submit" type="submit">Submit Requirement</button>
+						</div>
+						</div>
+						</form>
+					</div>
+
+					<div class="col-md-12 prstep-2" style="display: none;">
+						<form action="inquiry_submit.html" class="contact-form" method="post" id="prfrmcontact1" name="prfrmcontact1">
+							<div class="row">
+							<div class="form-group col-md-12 mb-3">
+							<input type="text" name="mem_compname" id="mem_compname" class="form-control" placeholder="Your Company Name" value="">
+							</div>
+							<div class="form-group col-md-12 mb-3">
+							<textarea name="prod_desc" class="form-control textarea-contact" rows="4" id="prod_desc" placeholder="Describe Your Buy Requirements In Details"></textarea>
+							</div>
+							<div class="form-group col-md-4 mb-3">
+							<input type="text" name="prod_qnty" id="prod_qnty" onkeypress="return isNumberKey(event);" maxlength="6" class="form-control" placeholder="Quantity Value">
+							</div>
+							<div class="form-group col-md-4 mb-3">
+							<select name="qnty_type" class="form-control" id="qnty_type">
+							<option value="" selected="true" disabled="disabled">Quantity Type</option>
+							<option value="Bags">Bags</option><option value="Sets">Sets</option><option value="Tons">Tons</option><option value="Foot">Foot</option><option value="Boxes">Boxes</option><option value="Units">Units</option><option value="Pairs">Pairs</option><option value="Meter">Meter</option><option value="Pieces">Pieces</option><option value="Cartons">Cartons</option><option value="Kilogram">Kilogram</option><option value="Container">Container</option><option value="Barrels">Barrels</option><option value="Bushels">Bushels</option><option value="Cubic Meter">Cubic Meter</option><option value="Dozen">Dozen</option><option value="Gallon">Gallon</option><option value="Grams">Grams</option><option value="Kilometer">Kilometer</option><option value="Long Ton">Long Ton</option><option value="Metric Ton">Metric Ton</option><option value="Ounce">Ounce</option><option value="Packs">Packs</option><option value="Pound">Pound</option><option value="Short Ton">Short Ton</option><option value="Square Meter">Square Meter</option><option value="Rolls">Rolls</option><option value="Bottles">Bottles</option><option value="Liters">Liters</option><option value="Packets">Packets</option><option value="Sheets">Sheets</option><option value="Reams">Reams</option><option value="Ounce">Ounce</option><option value="20' Container">20' Container</option><option value="40' Container">40' Container</option><option value="Hectare">Hectare</option><option value="Number">Number</option></select>
+							</div>
+							<div class="form-group col-md-4 mb-3">
+							<select name="frequency" id="frequency" class="form-control">
+							<option value="Select Frequency" disabled="disabled"> Select Frequency </option>
+							<option value="One Time">One Time</option>
+							<option value="Daily">Daily</option>
+							<option value="Weakly">Weakly</option>
+							<option value="Monthly">Monthly</option>
+							<option value="Yearly">Yearly</option>
+							</select>
+							</div>
+							<div class="col-sm-12 text-center">
+							<input type="hidden" id="subject" name="subject" value="" />
+							<input type="hidden" id="mem_email" name="mem_email" value="" />
+							<input type="hidden" id="cntryCode" name="countryCodePhone" value="" />
+							<input type="hidden" id="csmobile" name="csmobile" value="" />
+							<input type="hidden" id="city" name="city1" value="" />
+							<input type="hidden" id="product_id" name="product_id" value="" />
+							
+							<input type="hidden" id="memberID" name="memberID" value="2714277" />
+							<input type="hidden" id="refURL" name="refURL" value="http://www.shreekashiexports.co.in/thank-you.html" />
+							<button class="btn btn-primary" name="submit1" type="submit" id="submit1" value="frmsbt" onclick="return frmsub()">Send Inquiry</button>
+							</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+				
+				
+				<div class="success-section text-center pt-4 pb-3" style="display: none;">
+					<div class="checkmark">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 161.2 161.2" enable-background="new 0 0 161.2 161.2" xml:space="preserve">
+					<path class="path" fill="none" stroke="#339881" stroke-miterlimit="10" d="M425.9,52.1L425.9,52.1c-2.2-2.6-6-2.6-8.3-0.1l-42.7,46.2l-14.3-16.4
+					c-2.3-2.7-6.2-2.7-8.6-0.1c-1.9,2.1-2,5.6-0.1,7.7l17.6,20.3c0.2,0.3,0.4,0.6,0.6,0.9c1.8,2,4.4,2.5,6.6,1.4c0.7-0.3,1.4-0.8,2-1.5
+					c0.3-0.3,0.5-0.6,0.7-0.9l46.3-50.1C427.7,57.5,427.7,54.2,425.9,52.1z"></path>
+					<circle class="path" fill="none" stroke="#339881" stroke-width="4" stroke-miterlimit="10" cx="80.6" cy="80.6" r="62.1"></circle>
+					<polyline class="path" fill="none" stroke="#339881" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="113,52.8 
+					74.1,108.4 48.2,86.4 "></polyline>
+					<circle class="spin" fill="none" stroke="#339881" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="12.2175,12.2175" cx="80.6" cy="80.6" r="73.9"></circle>
+					</svg>
+					</div>
+					<div class="title">Thank You!</div>
+					<div class="message mb-3">Your Requirement has been sent successfully. <br> You will be contacted soon.</div>
+					<div><a href="javascript:void(0)" class="btn btn-sm btn-outline-primary" onclick="$(this).closest('.pr-form-box').find('.success-section').hide(); $(this).closest('.pr-form-box').find('.pr-form').show(); $(this).closest('.pr-form-box').find('.prstep-1').show(); $(this).closest('.pr-form-box').find('.prstep-2').hide()">+ Add Another Requirement</a></div>
+				</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal" id="currencyConverter">
+	<div class="modal-dialog modal-dialog-centered" role="document" style="max-width:550px;">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title notranslate">Currency Converter</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+				<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form action="" method="post" id="pricontform" name="pricontform">
+                    <div class="row">
+                    <div class="form-group col-12 mb-3">
+                    <label class="mb-1"><b>Enter Amount</b></label>
+                    <input type="text" name="priceconvertamount" id="priceconvertamount" class="form-control" placeholder="Enter Amount" required="">
+                    </div>
+                    <div class="form-group col-12 mb-3">
+                    <label class="mb-1"><b>From</b></label>
+                    <select class="form-control" name="fromcountrycode" id="fromcountrycode">
+                                <option value="AUD">AUD - Australia</option>
+                                    <option value="BRL">BRL - Brazil</option>
+                                    <option value="BGN">BGN - Bulgaria</option>
+                                    <option value="CAD">CAD - Canada</option>
+                                    <option value="CNY">CNY - China</option>
+                                    <option value="NZD">NZD - Cook Islands</option>
+                                    <option value="HRK">HRK - Croatia</option>
+                                    <option value="CZK">CZK - Czech Republic</option>
+                                    <option value="DKK">DKK - Denmark</option>
+                                    <option value="DKK">DKK - Faroe Islands</option>
+                                    <option value="HKD">HKD - Hong Kong</option>
+                                    <option value="HUF">HUF - Hungary</option>
+                                    <option value="ISK">ISK - Iceland</option>
+                                    <option value="INR">INR - India</option>
+                                    <option value="IDR">IDR - Indonesia</option>
+                                    <option value="ILS">ILS - Israel</option>
+                                    <option value="JPY">JPY - Japan</option>
+                                    <option value="CHF">CHF - Liechtenstein</option>
+                                    <option value="MYR">MYR - Malaysia</option>
+                                    <option value="MXN">MXN - Mexico</option>
+                                    <option value="NOK">NOK - Norway</option>
+                                    <option value="RUB">RUB - Russia</option>
+                                    <option value="PHP">PHP - Philippines</option>
+                                    <option value="PLN">PLN - Poland</option>
+                                    <option value="ZAR">ZAR - South Africa</option>
+                                    <option value="SEK">SEK - Sweden</option>
+                                    <option value="THB">THB - Thailand</option>
+                                    <option value="TRY">TRY - Turkey</option>
+                                    <option value="GBP">GBP - United Kingdom</option>
+                                    <option value="USD" selected="">USD - United States</option>
+                                </select>
+                    </div>
+                    <div class="form-group col-12 mb-3">
+                    <label class="mb-1"><b>To</b></label>
+                    <select class="form-control" name="tocountrycode" id="tocountrycode">
+                                <option value="AUD">AUD - Australia</option>
+                                    <option value="BRL">BRL - Brazil</option>
+                                    <option value="BGN">BGN - Bulgaria</option>
+                                    <option value="CAD">CAD - Canada</option>
+                                    <option value="CNY">CNY - China</option>
+                                    <option value="NZD">NZD - Cook Islands</option>
+                                    <option value="HRK">HRK - Croatia</option>
+                                    <option value="CZK">CZK - Czech Republic</option>
+                                    <option value="DKK">DKK - Denmark</option>
+                                    <option value="DKK">DKK - Faroe Islands</option>
+                                    <option value="HKD">HKD - Hong Kong</option>
+                                    <option value="HUF">HUF - Hungary</option>
+                                    <option value="ISK">ISK - Iceland</option>
+                                    <option value="INR" selected="">INR - India</option>
+                                    <option value="IDR">IDR - Indonesia</option>
+                                    <option value="ILS">ILS - Israel</option>
+                                    <option value="JPY">JPY - Japan</option>
+                                    <option value="CHF">CHF - Liechtenstein</option>
+                                    <option value="MYR">MYR - Malaysia</option>
+                                    <option value="MXN">MXN - Mexico</option>
+                                    <option value="NOK">NOK - Norway</option>
+                                    <option value="RUB">RUB - Russia</option>
+                                    <option value="PHP">PHP - Philippines</option>
+                                    <option value="PLN">PLN - Poland</option>
+                                    <option value="ZAR">ZAR - South Africa</option>
+                                    <option value="SEK">SEK - Sweden</option>
+                                    <option value="THB">THB - Thailand</option>
+                                    <option value="TRY">TRY - Turkey</option>
+                                    <option value="GBP">GBP - United Kingdom</option>
+                                    <option value="USD">USD - United States</option>
+                                </select>
+                    </div>
+                    <div class="form-group col-12 mb-3 text-center">
+                    <button class="btn btn-primary" name="submit" type="submit" id="convert_now">Convert Now</button>
+                    </div>
+            
+                    <div class="form-group col-12 mb-3 text-center" id="discp" style="display:none">
+                    <div style="font-size: 18px;"><span id="basepriceunit"></span> = </div>
+                    <div style="font-size: 30px"><b class="text-primary" id="spridis"></b> <small id="othpricesy"></small></div>
+                    </div>
+                    <div class="form-group col-12 mb-3 text-center" id="discp1" style="display:none">
+                    <div style="font-size: 18px;" id="singconprice"></div>
+                    </div>
+                    </div>
+                    </form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="whatsapp-float left"><a href="#"><i class="fab fa-whatsapp"></i></a></div>
+
+<style type="text/css">
+.whatsapp-float {position: fixed; background: #10b418; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; text-align: center;  bottom: 30px; color: #fff; z-index: 999}
+.whatsapp-float a {color: #fff; width: 100%; height: 100%; display: block; font-size:35px;}
+.whatsapp-float.left {left: 35px;}
+.whatsapp-float.right {right: 35px;}
+</style>
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
+  
+   
+    
+    <script>
+        $('.slider1').owlCarousel({
+            loop: true, 
+            margin:0,
+            items:1,
+            dots:true,
+            nav:true,
+            mouseDrag:false,
+            autoplay:true,
+            responsiveClass: true,
+            responsive:{
+                1024:{
+                    items:1,
+                    margin:0
+                }    
+            }
+        });
+        $(".owl-prev").html('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>');
+        $(".owl-next").html('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
+    </script>	
+</body>
+</html>
